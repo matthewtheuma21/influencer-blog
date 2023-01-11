@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Name{
+    background-color:  #BAC8E0;
+}
+
+.header{
+    width: 100%;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em 0;
+    color: darkblue;
+}
+
+.headerNav{
+    margin-left: 90PX;
+}
+
+.navbar {
+    border-bottom: 1px solid #d1d3d5;
+    
+}
+
+.navbar .container {
+    align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.container{
+    height:100px;
+}
+
+.navbar a {
+    display: block;
+    padding: .5em;
+    
+}
+
+.navbar-nav {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding-right: 300px;
+}
+
+.navbar-nav .nav-item{
+    margin: 0 .5em;
+    padding-right: 80px;
+}
+
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color: floralwhite;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+
+.header-image{
+    height: 75px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 2ch;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+    
+        <header class="header">
+            <nav class="navbar Name">
+                <div class="container">
+                    <a href="home-page.html" class="navbar-brand">
+                        <img src="SATW Logo.png" alt="Logo" class="header-image">
+                    </a>
+    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="home-page.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="About.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Destinations.html" class="nav-link">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="imgs.html" class="nav-link">Photographs</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="Barcelona Page.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+
+</body>
+</html>
