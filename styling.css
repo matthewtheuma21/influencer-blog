@@ -191,14 +191,16 @@ body {
 
     column-count: 3;
     column-gap: 40px;
+    padding-left: 150px;
 }
 
-.country-list h3 {
+.col-4 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 0);
     font-weight: 800;
     text-transform: uppercase;
+    padding-left: 150px;
 }
 
 .country-list p {
