@@ -321,10 +321,11 @@ body {
     font-size: 2ch;
 }
 
-.row{
+.content-row{
     padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 150px;
+    padding-right: 135px;
+    text-align: justify
 }
 
 .body-image{
@@ -334,6 +335,7 @@ body {
 
 figcaption{
     text-align: center;
+    font-weight:600;
 }
 /*Contact Form*/
 
