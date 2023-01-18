@@ -107,7 +107,6 @@ body {
     background-color: #000000;
     color: white;
     bottom: 0;
-    margin: .5em;
     padding: .25em .5em;
     position: absolute;
     left: 70ch;
@@ -160,6 +159,7 @@ body {
 
 .col-4{
     padding-top: 10px;
+    padding-left: 450px;
 }
 
 .col-3{
@@ -191,7 +191,6 @@ body {
 
     column-count: 3;
     column-gap: 40px;
-    padding-left: 150px;
 }
 
 .col-4 h3 {
@@ -200,7 +199,6 @@ body {
     color: rgb(0, 0, 0);
     font-weight: 800;
     text-transform: uppercase;
-    padding-left: 150px;
 }
 
 .country-list p {
