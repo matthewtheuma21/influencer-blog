@@ -94,6 +94,8 @@ body {
     margin: 0;
 }
 
+/* Home */
+
 .background-image {
     margin: 0%;
     width: 100%;
@@ -114,12 +116,15 @@ body {
     z-index: 100;
 }
 
+
 .rotate-img {
     transform: rotate(8deg);
     padding-left: 500px;
     padding-top: 0px;
     padding-bottom: 30px;
 }
+
+/*About*/
 
 .about-image1 {
     position: relative;
@@ -200,12 +205,15 @@ body {
     font-weight: 400;
 }
 
+/*Images*/
+
 .imgs-header {
     text-align: center;
     padding-top: 50px;
     font-weight: 50;
     font-family: sans-serif;
     text-transform: uppercase;
+    color:darkblue;
 }
 
 .imgs-row {
@@ -243,11 +251,14 @@ body {
     }
 }
 
+/*Destinations*/
+
 .header4 {
     padding-top: 150px;
     text-align: center;
     font-size: x-large;
     font-weight: 800;
+    color:darkblue;
 }
 
 .content-box {
@@ -299,6 +310,83 @@ body {
     color: #000000;
     padding-right: 500px;
 }
+
+/*BARCELONA - BUDAPEST - NUREMBERG*/
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 2ch;
+}
+
+.row{
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.body-image{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+figcaption{
+    text-align: center;
+}
+/*Contact Form*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: darkblue;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: #a1bab8;
+    padding: 150px;
+    padding-top: 110px;
+    
+}
+
+.button-nav-link {
+    color: darkblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-title {
+    padding-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*footer*/
 
 footer {
     background-color: #eeeeeee8;
